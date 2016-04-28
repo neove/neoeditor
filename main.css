@@ -1,0 +1,106 @@
+body,html{
+	width: 100%;
+	height: 100%;
+}
+div.neo-editor{
+	width: 800px;
+	height: 480px;
+	border: 1px solid #666;
+	margin: 100px auto;
+	-webkit-box-shadow: 0 0 9px 7px #ccc;
+	-moz-box-shadow:    0 0 9px 7px    #ccc;
+	box-shadow:        0 0  9px  7px         #ccc;
+	position: relative;
+}
+
+/**********begin the style of the control button*****************************/
+ul.but{
+	width: 100%;
+	height: 35px;
+	border: 1px solid #ccc;
+}
+ul.but li{
+	float:left;
+	width: 35px;
+	height:35px;
+	text-align: center;
+	line-height: 35px;
+	cursor:pointer;
+}
+ul.but li:hover{
+	-webkit-box-shadow: inset 0 0 1px 2px rgba(153, 51 ,255 ,.5);
+	-moz-box-shadow: inset 0 0 1px 2px rgba(153,51 ,255, .5);
+	box-shadow: inset 0 0 1px 2px rgba(153, 51, 255, .5);
+}
+li.font-add{background:url('../img/add.png') no-repeat 50% 50%;}
+li.font-dec{background:url('../img/dec.png') no-repeat 50% 50%;}
+li.link{background:url('../img/link.png') no-repeat 50% 50%;}
+li.bold{background:url('../img/b.png') no-repeat 50% 50%;}
+li.italic{background:url('../img/i.png') no-repeat 50% 50%;}
+li.color{background:url('../img/color.png') no-repeat 50% 50%;}
+li.l{background:url('../img/l.png') no-repeat 50% 50%;}
+li.r{background:url('../img/r.png') no-repeat 50% 50%;}
+li.c{background:url('../img/c.png') no-repeat 50% 50%;}
+li.underline{background:url('../img/underline.png') no-repeat 50% 50%;}
+li.rank{background:url('../img/rank.png') no-repeat 50% 50%;}
+li.line{background:url('../img/line.png') no-repeat 50% 50%;}
+li.copy{background:url('../img/copy.png') no-repeat 50% 50%;}
+li.delete{background:url('../img/delete.png') no-repeat 50% 50%;}
+li.s{background:url('../img/d.png') no-repeat 50% 50%;}
+li.save{background:url('../img/save.png') no-repeat 50% 50%;}
+
+ul.color-list{
+	width:70px;
+	height:39px;
+	position: absolute;
+	top: -69px;
+	left: 52px;
+	display: none;
+	
+}
+ul.color-list li{
+	width: 17px;
+	height: 17px;
+	border: 1px solid #ccc;
+	float: left;
+	margin:1px;
+	cursor: pointer;
+}
+ul.color-list li.c000{background: #000}
+ul.color-list li.c090{background: #090}
+ul.color-list li.c0f0{background: #0f0}
+ul.color-list li.c300{background: #300}
+ul.color-list li.c3cf{background: #3cf}
+ul.color-list li.c3f0{background: #3f0}
+ul.color-list li.c90f{background: #90f}
+ul.color-list li.c9f0{background: #9f0}
+ul.color-list li.cf03{background: #f03
+}
+/*************************************************************/
+div.wrap{
+	width: 100%;
+	height: 100%;
+	background: #33f;
+	opacity: 0.4;
+	position: absolute;
+	top: 0;
+
+}
+header {
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	font-size: 22px;
+	border: 2px solid rgba(255, 102, 0, .5);
+	padding: 20px 40px;
+	border-radius: 10px;
+	cursor: pointer;
+	-webkit-box-shadow: inset 0 0 24px rgba(153, 0, 255, 0.5);
+	-moz-box-shadow: inset 0 0 24px rgba(153, 0, 255, 0.5);
+	box-shadow: inset 0 0 24px rgba(153, 0, 255, 0.5);
+	-webkit-transition:   all 1s;
+	-moz-transition:      all 1s;
+	-ms-transition:       all 1s;
+	-o-transition:        all 1s;
+	transition:           all 1s;
+}
